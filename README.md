@@ -14,4 +14,5 @@ Preferred Name: Jessica Chen
 
 Discord username: jessie j#1828
 
-REPL url:
+REPL url: https://replit.com/@jchen753/jessica-cs110#README.md
+https://replit.com/join/orezniuxac-jchen753
