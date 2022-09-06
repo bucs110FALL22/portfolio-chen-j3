@@ -1,10 +1,18 @@
 {
   "files": {
+    "ch01/exercises/.blank": [
+      {
+        "id": "3bda0a29-3154-4621-be27-2e242d110fac",
+        "line": 1,
+        "version": 29,
+        "index": 0
+      }
+    ],
     "main.py": [
       {
         "id": "f051bd4c-2ea9-41e4-aedd-ef50613bcff5",
         "line": 1,
-        "version": 22,
+        "version": 97,
         "index": 0
       }
     ]
