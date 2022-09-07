@@ -12,8 +12,10 @@ print(10/15)
 
 #part 2
 
-rate = int(input("What is the exchange rate for the Euro to Dollar?\n"))
-amount = int(input("What is the amount of currency you need to exchange?\n"))
+rate = (input("What is the exchange rate for the Euro to Dollar?\n"))
+#dont want to use int for percentage. use float.
+rate = float(rate)
+amount = float(input("What is the amount of currency you need to exchange?\n"))
 total = rate*amount
 result = total-3
 print("Your result is $",result)
