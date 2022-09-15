@@ -1,4 +1,4 @@
-
+import random
 #Part A
 weeks = 16
 classes = 5
@@ -13,7 +13,7 @@ print(cost_per_class, type(cost_per_class))
 print("Your cost per class is $", cost_per_class)
 
 #Part B
-import random
+#import random MUST INCLUDE TOP OF FILE BEFORE ANY CODE
 #random.randrange(1,10)
 dataObjects = [1, 1/5, "stem", 888, 23/2]
 randomObj = random.choice(dataObjects)
