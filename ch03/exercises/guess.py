@@ -1,7 +1,7 @@
 import random
 
 num = random.randrange(1,11)
-num_guesses = 1
+num_guesses = 0 #to keep track of number of guesses
 
 for i in range(3):
   guess_num = int(input("Please enter a guess:"))
@@ -20,7 +20,6 @@ print("It took you", num_guesses, "to get it right.")
 # import random
 
 # answer = random.randrange(1,11) #gives one number between the range
-# num_guesses = 0 #to keep track of number of guesses
 
 # for i in range(3): #use range to create list . list of 3 things - loop 3 times
 #   #i is a variable name 
