@@ -6,6 +6,7 @@ Fulmer, who with Keith Habersberger, Zach Kornfeld, and Eugene Lee Yang was a fo
 In a statement posted to Instagram, Fulmer said he had “a consensual workplace relationship.” “I’m sorry for any pain that my actions may have caused to the guys and the fans but most of all Ariel,” he wrote. “The only thing that matters right now is my marriage and my children, and that’s where I am going to focus my attention.” 
 """
 
+
 substitutions = {
   "Ned":"Pit of Despair",
   "consensual":"sad",

@@ -18,12 +18,12 @@ For each one below you should have a basic description of a program idea, a coup
 
 ## Project Idea 1
 
-< add your idea here >
+< Use aswd keys and arrow keys to have two characters reach a destination. This idea is inspired by watergirl and fireboy. >
 
 ## Project Idea 2
 
-< add your idea here >
+< Use arrow keys for a character to walk through a maze. >
 
 ## Project Idea 3
 
-< add your idea here >
+< Have two characters fight with specific keys for specific characters where they can dodge, kick, or punch. >
