@@ -29,6 +29,18 @@ t.shape('turtle')
 
 t.speed(0) #makes it faster
 
+#make a function for if turtle is off screen bc will be used a lot
+# def isinscreen(window, turt):
+#   turtleX = t.xcor()
+#     turtleY = t.ycor()
+
+#     x_range = wn.window_width()/2 #
+#     y_range = wn.window_height()/2
+#     if abs(turtleX) > x_range or abs(turtleY) > y_range: 
+#       return False
+#   return True
+
+
 distance = 10
 angle = 90
 is_in_screen = True
