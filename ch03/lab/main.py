@@ -21,6 +21,10 @@ leonardo.goto(-100,-20)
 leonardo.speed(1)
 michelangelo.speed(1)
 
+# Turtles are reset to incorrect positions (-0.5 pt)
+# Does not have different values for each turtle for Race 1 (-1pt)
+# Does not have different values for each turtle in Race 2 (-1pt)
+
 ## 5. Your PART A code goes here
 # part A pt 1
 distance = random.randrange(1,101)
@@ -53,13 +57,13 @@ offset = 100
 #2
 for i in range(num_sides):
   theta = (2.0 * math.pi * i/num_sides)
-  print("The theta for each side of the polygon is", theta)
+  #print("The theta for each side of the polygon is", theta)
   x = side_length * math.cos(theta) + offset
-  print("The x coordinate is", x)
+  #print("The x coordinate is", x)
   y = side_length * math.sin(theta) + offset
   coords.append([x,y]) #add each coord to the list of coords
 
-print("The coordinates of this polygon are", coords)
+#print("The coordinates of this polygon are", coords)
 #3
 pygame.draw.polygon(window,"blue", (coords))
 #4
@@ -75,9 +79,9 @@ coords = []
 num_sides = 4
 for i in range(num_sides):
   theta = (2.0 * math.pi * i/num_sides)
-  print("The theta for each side of the polygon is", theta)
+  #print("The theta for each side of the polygon is", theta)
   x = side_length * math.cos(theta) + offset
-  print("The x coordinate is", x)
+  #print("The x coordinate is", x)
   y = side_length * math.sin(theta) + offset
   coords.append([x,y]) 
 print("The coordinates of this polygon are", coords)
@@ -97,7 +101,7 @@ for i in range(num_sides):
   print("The x coordinate is", x)
   y = side_length * math.sin(theta) + offset
   coords.append([x,y]) 
-print("The coordinates of this polygon are", coords)
+#print("The coordinates of this polygon are", coords)
 pygame.draw.polygon(window,"blue", (coords))
 pygame.display.flip()
 pygame.time.wait(1000)
@@ -109,12 +113,12 @@ coords = []
 num_sides = 9
 for i in range(num_sides):
   theta = (2.0 * math.pi * i/num_sides)
-  print("The theta for each side of the polygon is", theta)
+  #print("The theta for each side of the polygon is", theta)
   x = side_length * math.cos(theta) + offset
-  print("The x coordinate is", x)
+  #print("The x coordinate is", x)
   y = side_length * math.sin(theta) + offset
   coords.append([x,y]) 
-print("The coordinates of this polygon are", coords)
+#print("The coordinates of this polygon are", coords)
 pygame.draw.polygon(window,"blue", (coords))
 pygame.display.flip()
 pygame.time.wait(1000)
@@ -126,12 +130,12 @@ coords = []
 num_sides = 360
 for i in range(num_sides):
   theta = (2.0 * math.pi * i/num_sides)
-  print("The theta for each side of the polygon is", theta)
+  #print("The theta for each side of the polygon is", theta)
   x = side_length * math.cos(theta) + offset
-  print("The x coordinate is", x)
+  #print("The x coordinate is", x)
   y = side_length * math.sin(theta) + offset
   coords.append([x,y]) 
-print("The coordinates of this polygon are", coords)
+#print("The coordinates of this polygon are", coords)
 pygame.draw.polygon(window,"blue", (coords))
 pygame.display.flip()
 pygame.time.wait(1000)
