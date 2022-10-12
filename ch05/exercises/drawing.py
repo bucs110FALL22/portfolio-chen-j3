@@ -9,4 +9,5 @@ def drawEqShape(myturtle=None, num_sides=0, side_length=0):
   
 leo = turtle.Turtle()
 leo.color("blue")
+leo.shape("turtle")
 drawEqShape(leo, 4, 10)
