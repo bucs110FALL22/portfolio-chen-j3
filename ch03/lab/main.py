@@ -24,12 +24,12 @@ michelangelo.speed(1)
 
 ## 5. Your PART A code goes here
 # part A pt 1
-distance = random.randrange(1,101)
-leonardo.forward(distance)
-michelangelo.forward(distance)
+leonardo.forward(random.randrange(1,101))
+michelangelo.forward(random.randrange(1,101))
 
 leonardo.goto(-100,-20)
 michelangelo.goto(-100,20)
+# if you use a variable only once in your code, then there's no need to save it in a variable. You can place the value of the variable directly where you use it
 
 # part A pt 2
 for i in range(10):
