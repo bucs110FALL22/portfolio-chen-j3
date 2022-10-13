@@ -21,26 +21,25 @@ leonardo.goto(-100,-20)
 leonardo.speed(1)
 michelangelo.speed(1)
 
-# Turtles are reset to incorrect positions (-0.5 pt)
-# Does not have different values for each turtle for Race 1 (-1pt)
-# Does not have different values for each turtle in Race 2 (-1pt)
 
 ## 5. Your PART A code goes here
 # part A pt 1
 distance = random.randrange(1,101)
 leonardo.forward(distance)
 michelangelo.forward(distance)
-leonardo.goto(-100,20)
-michelangelo.goto(-100,-20)
+
+leonardo.goto(-100,-20)
+michelangelo.goto(-100,20)
 
 # part A pt 2
 for i in range(10):
-  distanceTwo = random.randrange(0,11)
-  leonardo.forward(distanceTwo)
-  michelangelo.forward(distanceTwo)
+  leonardoDistanceTwo = random.randrange(0,11)
+  leonardo.forward(leonardoDistanceTwo)
+  michelangeloDistanceTwo = random.randrange(0,11)
+  michelangelo.forward(michelangeloDistanceTwo)
   
-leonardo.goto(-100,20)
-michelangelo.goto(-100,-20)
+leonardo.goto(-100,-20)
+michelangelo.goto(-100,20)
 
 
 # PART B - complete part B here
@@ -84,7 +83,7 @@ for i in range(num_sides):
   #print("The x coordinate is", x)
   y = side_length * math.sin(theta) + offset
   coords.append([x,y]) 
-print("The coordinates of this polygon are", coords)
+#print("The coordinates of this polygon are", coords)
 pygame.draw.polygon(window,"blue", (coords))
 pygame.display.flip()
 pygame.time.wait(1000)
