@@ -15,4 +15,9 @@ class Rectangle:
       self.width = 0
 
   def __str__(self):
+ #  ‘’’
+	# returns a string
+	# args: self
+	# return: (string) string with the x, y, width, and height of the rectangle
+	# ‘’
     return f"(x:{self.x}, y:{self.y}) width: {self.width}, height: {self.height}"
