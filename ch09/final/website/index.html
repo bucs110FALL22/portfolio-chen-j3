@@ -1,0 +1,22 @@
+<!doctype html>
+<head>
+	<title>Jessica's Final Project (API Edition)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+    <link href="common.css" rel="stylesheet" type="text/css"/>
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+	<div class="main">
+        <div class="spotify-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/252px-Spotify_logo_without_text.svg.png?20160123212544" alt="spotify"/>
+        </div>
+        <h1 class="title">Welcome, <span>{{ name }}</span></h1>
+        <p class="warning">Warning: This app can only host one user at a time. As a result, you may see another user's account if they did not log out before your session.</p>
+        <div class="button-container">
+            <a class="button" href="/top_artist">See One of My Top Artists</a>
+            <a class="button slideRight" href="/logout">Log Out of Spotify</a>
+        </div>
+    </div>
+</body>
