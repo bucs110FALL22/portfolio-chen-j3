@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    align-items: center;
+}
+
+.header > .album-photo {
+    width: 90px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.header > h2 {
+    margin: 16px;
+    flex: 1;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    row-gap: 4px;
+    column-gap: 8px;
+}
+
+.stats > .row-title {
+    font-weight: bold;
+}

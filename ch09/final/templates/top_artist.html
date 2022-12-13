@@ -1,0 +1,22 @@
+<!doctype html>
+<head>
+	<title>Jessica's Final Project (API Edition)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+    <link href="/static/common.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/top_artist.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="main">
+        <h1 class="title">One of Your 2022 Top Artists</h1>
+        <div class="album-container">
+            <img class="album-photo" src="{{ artist_photo_url }}" alt="artist"/>
+            <h2>{{ artist_name }}</h2>
+        </div>
+        <div class="button-container">
+            <a class="button" href="/">Go Home</a>
+            <a class="button" href="/info/{{ artist_id }}">Learn More</a>
+        </div>
+    </div>
+</body>

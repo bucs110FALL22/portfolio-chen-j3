@@ -1,0 +1,100 @@
+:root {
+    --spotify-black: #191414;
+    --spotify-green: #1DB954;
+}
+
+body {
+    font-family: 'Figtree', sans-serif;
+    background-color: var(--spotify-black);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.button {
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 8px;
+    background-color: var(--spotify-green);
+    color: white;
+    border-radius: 2px;
+}
+
+.button:hover {
+    filter: saturate(1.5);
+}
+
+.button:active {
+    filter: initial;
+}
+
+div.main {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    max-width: 500px;
+    margin: 16px;
+    width: 100%;
+}
+
+.main > * {
+    margin: 16px;
+}
+
+.title {
+    text-align: center;
+}
+
+.album-photo {
+    width: 75%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.album-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+}
+
+.album-container > * {
+    margin: 0px;
+}
+
+.album-container > h2 {
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    align-items: stretch;
+    gap: 8px;
+}
+
+.subtitle {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.warning {
+    padding: 16px;
+    background-color: rgba(256, 256, 256, 0.2);
+    border-radius: 4px;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.spotify-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.spotify-logo > img {
+    width: 100px;
+    height: auto;
+}

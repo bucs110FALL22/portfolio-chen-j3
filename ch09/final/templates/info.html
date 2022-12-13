@@ -1,0 +1,39 @@
+<!doctype html>
+<head>
+	<title>Jessica's Final Project (API Edition)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+    <link href="/static/common.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/info.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <img class="album-photo" src="{{ artist_photo_url }}" alt="artist"/>
+            <h2>{{ artist_name }}</h2>
+        </div>
+        <div>
+            <h2 class="subtitle">Their Stats</h2>
+            <div class="stats">
+                <div class="row-title">Country</div> <div>{{ artist_country }}</div>
+                <div class="row-title">Genres</div> <div>{{ artist_genre }}</div>
+                <div class="row-title">Debut Date</div> <div>{{ artist_date }}</div>
+            </div>
+        </div>
+        <div class="embed">
+            <h2 class="subtitle">Listen In!</h2>
+            <iframe 
+                style="border-radius:4px"   
+                src="https://open.spotify.com/embed/artist/{{ artist_id }}?utm_source=generator"
+                width="100%" 
+                height="380" 
+                frameBorder="0" 
+                allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+            </iframe>
+        </div>
+        <a class="button" href="/top_artist">Get Another Top Artist</a>
+    </div>
+</body>
