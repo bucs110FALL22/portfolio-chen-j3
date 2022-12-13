@@ -16,4 +16,4 @@ This program is not ideal if you do not use Spotify since Spotify won't have the
 - my own old web dev projects as a refresher on how to use html/css
 
 ## MISCELLANEOUS COMMENTS *(anything else you would like the grader to know)*
-I need your email to your Spotify account so that I can add it to the Spotify API's user access. Otherwise, Spotify does not have permission to view the user's Spotify information. If you do not have Spotify, I will happily give you my Spotify account information.
+I need your email to your Spotify account so that I can add it to the Spotify API's user access. Otherwise, Spotify does not have permission to view the user's Spotify information. If you do not have Spotify, I will happily give you my Spotify account information. Or, message me on discord jessica c#1828 or email jchen753@binghamton.edu and I can log in myself.
